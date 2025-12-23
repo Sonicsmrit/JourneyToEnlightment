@@ -35,4 +35,8 @@ while True:
 
             save_path = save_folder / f"{filename}_reshaped.jpg"
             rezised_pic.save(save_path)
-
+    a = input("continue?(Y/N)").lower()
+    if a == "n":
+        break
+    else:
+        continue
